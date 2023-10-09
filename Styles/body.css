@@ -1,0 +1,419 @@
+body {
+  margin: 0;
+  font-family: Poppins;
+
+}
+
+.body-page-template-container {
+  background-color: rgba(15, 15, 15, 0.918);
+  background-image: url("../Images/homepage-hero-bg-img_Bm5c00x4.webp");
+  height: 455px;
+  max-width: 1920px;
+  margin-top: 67px;
+  background-size: cover;
+  background-position: 0px -70px;
+  background-blend-mode:exclusion;
+  
+}
+
+.body-page-text {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+  font-style: normal;
+}
+
+.body-page-par {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.body-page-text, 
+.body-page-par {
+  color: white;
+
+  line-height: normal;
+ 
+  text-align: center;
+}
+
+.cozy-haven-container,
+.expertly-container,
+.ultimate-container {
+  color: rgb(33,33,33);
+  display:inline-block;
+  flex-direction: column;
+  width: 550px;
+  height: 790px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sensory-title,
+.expertly-title,
+.cozy-title,
+.ultimate-title {
+  color: rgb(33,33,33);
+  display:block;
+  flex-direction: column;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-size-adjust: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.goodvibes-img,
+.expertly-img,
+.cozy-img {
+  width: 495px;
+  display: block;
+}
+
+
+
+.sensory-content {
+  box-sizing: border-box;
+  color:rgb(77, 77, 77);
+  display:block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  height: 112.5px;
+  letter-spacing: normal;
+
+  text-align: start;
+  text-size-adjust: 100%;
+  width: 550px; 
+  word-spacing: 0px;
+}
+
+.expertly-crafted-content {
+  box-sizing: border-box;
+  color:rgb(77, 77, 77);
+  display:block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  height: 112.5px;
+  letter-spacing: normal;
+}
+.cozy-haven-content {
+  box-sizing: border-box;
+  color:rgb(77, 77, 77);
+  display:block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  height: 112.5px;
+  letter-spacing: normal;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1750px;
+  padding: 20px;
+
+}
+
+.left-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.flexbox {
+  flex: 1;
+  padding: 20px;
+}
+
+    /* Add gray background to the lower part of the page */
+    .lower-background {
+      background-color:rgba(64, 64, 64); /* You can adjust the color as needed */
+      height: 800px;
+      width: 100%;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    
+.our-menu {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+    /* Define CSS for the menu title container */
+    .menu-container {
+      text-align: center;
+      padding: 20px; /* Add padding for spacing */
+    }
+
+    /* Define CSS for the menu title text */
+    .menu-title {
+      color: white;
+      font-size: 24px; /* Adjust the font size as needed */
+      font-weight: 400; /* Adjust the font weight as needed */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Define CSS for the lines on each side of the text */
+    .menu-line {
+      flex: 1;
+      height: 1px;
+      background-color: white; /* Line color */
+      margin: 0 10px; /* Adjust the margin for spacing */
+    }
+
+        /* Define CSS for the text container */
+        .text-container {
+          text-align: left;
+          padding: 20px;
+          width: 500px;
+          margin-left: 60px;
+          display:inline-block;
+
+
+        }
+    
+        /* Define CSS for the text */
+        .text {
+          font-size: 16px; /* Adjust the font size as needed */
+          font-weight:bold; /* Adjust the font weight as needed */
+          color: white /* Text color */
+    
+
+        }
+    
+        /* Define CSS for the line container */
+        .line-container {
+          text-align: left; /* Left-align the line */
+        }
+    
+        /* Define CSS for the line */
+        .line {
+          height: 1px; /* Height of the line */
+          background-color: white; /* Line color */
+          margin: 10px 0; /* Add margin for spacing */
+        }
+    
+        /* Define CSS for the description text */
+        .description {
+          font-size: 16px; /* Adjust the font size as needed */
+          color: white; /* Description text color */
+          text-align: left;
+          font-weight: 300;
+          font-style: normal;
+
+        }
+
+.view-menu {
+  background-color: none;
+  border-width: 1px;  
+  border-style: solid;
+  color: white;
+  border-color: rgb(228, 228, 228);
+  padding: 15px;
+  align-items: center;   
+  font-weight: 500;
+  transition: opacity 1s;
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  margin: 0 auto;
+     }
+
+
+  .view-menu:hover {
+    cursor: pointer;
+    color:black;
+    background-color: white;
+    font-weight: 500;
+    opacity: 0.5;    
+  }
+
+  .savor-the-flavor {
+    background-color: rgba(15, 15, 15, 0.918);
+    background-image: url("../Images/signeture-bg_Bm5c00x4.webp");
+    height: 355px;
+    max-width: 1920px;
+    margin-top: 0px;
+    background-size: cover;
+    background-position: 0px -140px;
+    background-blend-mode:soft-light;
+    
+  }
+
+  .savor-title {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 20px;
+    font-style: normal;
+    width: 500px;
+    margin-left: 50px;
+    font-weight: 400;
+ 
+  }
+  
+  .savor-par {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+.team-container {
+    display: flex;
+    flex-direction: ROW;
+    align-items: stretch; /* Ensures both columns stretch to match height */
+    margin-top: 50px;
+}
+
+.left-team-column {
+    flex: 1; /* Takes up 1/3 of the container's height */
+    margin-left: 40px;
+
+}
+
+.right-column {
+    flex: 1; /* Takes up 2/3 of the container's height */
+    margin-left: 40px;
+  
+}
+
+/* Optional styling for the divs */
+.div1, .div2, .div3 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.div2-img {
+  width: 350px;
+}
+
+
+
+.left-team {
+  color: rgb(33,33,33);
+  display:block;
+  flex-direction: column;
+  font-size: 28px;
+  height: 1000px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  align-items:normal
+
+}
+
+.team-content {
+  box-sizing: border-box;
+  color:rgb(77, 77, 77);
+  display:block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  height: 112.5px;
+  letter-spacing: normal;
+  text-align: start;
+  text-size-adjust: 100%;
+  width: 550px; 
+  word-spacing: 0px;
+  margin-bottom: 60px;
+}
+
+.testimonial-background {
+  background-color: rgba(15, 15, 15, 0.918);
+  background-image: url("../Images/testimonail-section-bg-1_Bm5c00x4.webp");
+  height: 455px;
+  max-width: 1920px;
+  margin-top: 0px;
+  background-size: cover;
+  background-position: 0px -10px;
+  background-blend-mode:soft-light;
+  
+}
+
+.testimonial-title {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.testimonial-people {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap to the next row */
+  justify-content: space-between;
+  gap: 45px;
+  margin-inline-start: 70px;
+  margin-inline-end: 70px;
+  margin-top: 35px;
+}
+
+.column {
+  background-color: rgb(26, 26, 26);
+  border-radius: 22.5px;
+  width: 280px;
+  height: 280px;
+  flex: 1; /* Allow columns to grow in height */
+  min-width: 100px;
+  text-align: center;
+  padding-top: 110px;
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 900;
+  position: relative;
+  margin-bottom: 50px;
+ 
+
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position:absolute;
+  margin-top: 0px;
+  border-radius: 50px;
+  border: solid aqua;
+  top: -30px;
+  align-items: center;
+  left: 35%;
+
+  
+}
+
+
