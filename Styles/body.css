@@ -412,8 +412,100 @@ body {
   top: -30px;
   align-items: center;
   left: 35%;
-
-  
 }
 
 
+/* Add gray background to the bottom part of the page */
+.bottom-background {
+  background-color:rgba(64, 64, 64); /* You can adjust the color as needed */
+  height: 250px;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+ 
+}
+
+.bottom-details {
+  width: 25%; /* Each box takes 25% of the container's width */
+  height: 272.5px;
+  padding-left: 15px;
+
+
+
+}
+
+.bottom-contact {
+  display: flex;
+  margin-inline-start: 70px;
+  margin-inline-end: 40px;
+}
+
+.bottom-details-1 {
+  text-decoration: none; /* Remove the underline */
+  display: grid;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: normal;
+  color: white;
+  }
+
+  .bottom-details-1:hover {
+    cursor: pointer;
+    color:aquamarine;
+  }
+
+  .fb-icon, .yt-icon, .tw-icon, .ig-icon {
+    height: 28px;
+    padding-top: 28px;
+    padding-right: 36px;
+    filter: grayscale(100%);
+    transition: filter 0.3s; /* Add a transition effect */
+  }
+
+
+  .fb-icon:hover, .yt-icon:hover, .tw-icon:hover, .ig-icon:hover {
+    filter: grayscale(0%); /* Restore colors on hover */
+  }
+
+.location {
+font-size: 18px;
+font-style: normal;
+font-family: Poppins;
+font-weight: 400;
+letter-spacing: normal;
+color: white;
+
+}
+
+
+.location-content {
+font-size: 14px;
+font-style: normal;
+font-family: Poppins;
+font-weight: 300;
+letter-spacing: normal;
+color: white;
+
+}
+
+.opening {
+font-size: 18px;
+font-style: normal;
+font-family: Poppins;
+font-weight: 400;
+letter-spacing: normal;
+color: white;
+
+}
+
+.opening-content {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: normal;
+  color: white;
+
+  }
