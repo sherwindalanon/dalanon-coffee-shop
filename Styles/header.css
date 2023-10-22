@@ -8,6 +8,7 @@
   left: 0;
   right: 0;
   z-index: 999;
+  
 
   background-color: rgba(64, 64, 64, 1);
   color: white;
@@ -19,18 +20,14 @@
 }
 
 .left-section {
+  display: grid;
   font-size: 18px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 700;
   letter-spacing: normal;
-  line-height: 22.5;
-  text-size-adjust: 100%;
-  padding-left: 68px;
-  position: fixed;
-  background-color: none
-
-  
+  position: inline-block;
+  margin-inline-start: 43px;  
   }
 
 .left-section:hover {
@@ -46,9 +43,13 @@
   font-family: verdana;
   display: flex;
   flex-direction: row;
-  padding-right: 120px;
+  /* padding-right: 120px; */
   align-items: center;
-  margin-inline-start: 700px;
+  margin-inline-end: 40px;
+ 
+
+
+  /* margin-inline-start: 700px; */
 
 
 }
